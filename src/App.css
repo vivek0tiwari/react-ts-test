@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+.listItem {
+  list-style: none;
+}
+.tabHeaderContainer{
+  display: flex;
+  gap: 10px;
+}
+.tabHeaderItem{
+  background: #61dafb;
+}
+.tabHeaderItemActive{
+  background: #204d5a;
+}
+
+.headerBox{
+width: 100vw;
+height: 10vh;
+background-color: black;
+}
+.imageBG{
+  background-image: url('https://interactive.wired.com/www-wired-com__2017__03__russian-hacker-spy-botnet/goz_wide_43_chadhagan-1.jpg') ;
+  aspect-ratio: 1.5;
+  width: 100vw;
+  margin: 0;
+  background-repeat: round;
+  position: fixed;
+  overflow: scroll;
+}
+.imageHeaderWrapper{
+  padding-top: 10vh;
+  padding-left: 30vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.secongFold{
+  width: 100vw;
+  height: 100vh;
+  background-color: wheat;
+}
